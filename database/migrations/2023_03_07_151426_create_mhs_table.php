@@ -14,7 +14,10 @@ return new class extends Migration
     public function up()
     {
         Schema::create('mhs', function (Blueprint $table) {
-            $table->id();
+            $table->id('NIM');
+            $table->string('Nama');
+            $table->date('TTL');
+            $table->string('alamat');
             $table->timestamps();
         });
     }

@@ -11,7 +11,7 @@
     <div class="container" style="background-color: #796f6f">
         <div class="row">
             <div class="col-md-12">
-                <h1>Tabel Mahasiswa</h1><h3>User : {{ $modelUser[0] -> name }}</h3>
+                <h1>Tabel Mahasiswa</h1><h3>User : {{ $modelUser -> name }}</h3>
                 <table class="table" style="border: 1px">
                     <tr>
                         <th>NIM</th>

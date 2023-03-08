@@ -12,7 +12,7 @@ class userController extends Controller
     {
         #simple variable
         $data['array'] = 'Raihan'; 
-        $data['modelUser']=User::all();
+        $data['modelUser']=User::find(1);
         $data['modelMhs']=mhs::all();
         return view('index',$data);
     }
